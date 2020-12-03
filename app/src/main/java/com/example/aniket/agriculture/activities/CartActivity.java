@@ -333,7 +333,7 @@ public class CartActivity extends AppCompatActivity {
             //SEND SMS OF OTP
 
             SmsManager smsManager = SmsManager.getDefault();
-            smsManager.sendTextMessage("9403269338",null,"OTP: " + Long.toString(otp),null,null);
+            smsManager.sendTextMessage("9999999999",null,"OTP: " + Long.toString(otp),null,null);
             Toast.makeText(this,"SMS sent to registered number",Toast.LENGTH_SHORT).show();
 
             otpNumber.setText(Long.toString(otp));
